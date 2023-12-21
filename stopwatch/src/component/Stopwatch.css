@@ -1,0 +1,76 @@
+/* Stopwatch.css */
+
+body {
+    margin: 0; /* Remove default margin */
+    background-color: #000; /* Black background color for the entire page */
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #000; /* Black background color for the container */
+    padding: 20px; /* Increase padding for better spacing */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Outlined box shadow */
+  }
+  
+  p {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  span {
+    display: inline-block;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 10px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .container.active {
+    border: 2px solid #28a745; /* Green border for active stopwatch */
+  }
+  
+  .container.stopped {
+    border: 2px solid #dc3545; /* Red border for stopped stopwatch */
+  }
+  
+  /* Optional: Add animation for a more dynamic feel */
+  span:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  b{
+    color: white;
+    font-size: 2em;
+  }
+  
+
+  .buttons-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #4caf50; /* Green background color for Start button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  button:disabled {
+    background-color: #999; /* Gray color for disabled Stop button */
+    cursor: not-allowed;
+  }
