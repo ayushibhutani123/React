@@ -5,7 +5,7 @@ import Printcontainer from "./Printcontainer";
 export default function Calculator() {
   const zerowaliclass = "zerowaliclass";
   const [calcValue, setcalcValue] = useState("");
-
+hh
   const printdata = () => {
     setcalcValue("");
   };
