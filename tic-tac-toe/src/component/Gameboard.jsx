@@ -1,7 +1,6 @@
 import React from 'react';
-import { useState } from 'react';
 
-export default function Gameboard() {
+export default function Gameboard({onSelectSquare}) {
     const initialGameBoard=[
         [null,null,null],
         [null,null,null],
@@ -11,9 +10,11 @@ export default function Gameboard() {
     function handleSelectSquare (rowindex,colindex){
         setgameboard((prevGameBoard)=>{
             const updatedBoard=[...prevGameBoard.map(innerArray=>[...innerArray])]
-            updatedBoard[rowindex][colindex]="X";
+            updatedBoard[rowindex][colindex]=activePlayerSymbol;
             return updatedBoard;
+
         });
+        onSelectSquare();
     }
        
   return (
