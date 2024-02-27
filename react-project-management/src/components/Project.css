@@ -1,0 +1,30 @@
+.container {
+    background-color: black;
+    color: white;
+   
+    height: 100vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+  }
+  
+  h2 {
+    margin: 20px 0 0 0; 
+  }
+  
+  button {
+    margin-top: 20px; 
+    padding: 10px 20px;
+    background-color: #808080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+  }
+  
+  button:focus {
+    outline: none; 
+  }
+  

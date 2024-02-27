@@ -1,0 +1,74 @@
+.project-details-container {
+    margin: 20px;
+  }
+  
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .project-title {
+    color: grey;
+  }
+  
+  .delete-button {
+    background-color: transparent;
+    border: none;
+  color: grey;
+    cursor: pointer;
+    padding: 0px 0px 0px 51rem;
+    font-size: 1.5rem;
+  }
+  .due-date{
+    color: grey;
+  }
+  .divider {
+    border: 0;
+    border-top: 1px solid grey;
+    margin: 10px 0;
+  }
+  .task{
+    color: grey;
+  }
+  
+
+
+  
+ 
+
+.add-task {
+    background-color: grey;
+  }
+  
+  .input-task {
+    margin-right: 10px; 
+  }
+    
+  .input{
+    display: flex;
+  }
+  .inpu {
+    margin-right: 55rem; /* Add margin to the right of the input field */
+  }
+  
+  .clear-btn {
+    background-color: transparent;
+    border: none;
+    color: grey;
+    cursor: pointer;
+    padding: 5px 10px; /* Adjust padding to provide some space around the button text */
+    font-size: 1rem; /* Adjust font size as needed */
+    border-radius: 5px; /* Add some rounded corners for a modern look */
+    border: 1px solid grey; /* Add a border for better visibility */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect for hover */
+  }
+  
+  
+  .clear-btn:hover {
+    background-color: lightgrey; /* Change background color on hover for better feedback */
+  }
+  
+  .task-item{
+    display: flex;
+  }

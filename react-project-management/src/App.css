@@ -1,0 +1,10 @@
+
+.flex-container{
+  display: flex;
+}
+.project{
+  width: 30%;
+}
+.create-project{
+  width: 70%;
+}
