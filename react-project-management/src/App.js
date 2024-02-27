@@ -11,7 +11,7 @@ export default function App() {
   const addProject = (newProject) => {
     setProjects([...projects, newProject]);
   };
-
+  
   const onDelete = (projectId) => {
    const updatedProjects = projects.filter(project => project.id !== projectId);
     setProjects(updatedProjects);
